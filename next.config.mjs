@@ -1,12 +1,11 @@
-import { withContentlayer } from "next-contentlayer";
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
-	output: "standalone",
-	experimental: {
-		mdxRs: true,
-	},
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  // If your repo name is 'alpha-site', add the basePath:
+  // basePath: '/alpha-site', 
 };
 
-export default withContentlayer(nextConfig);
+export default nextConfig;
