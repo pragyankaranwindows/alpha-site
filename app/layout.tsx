@@ -6,19 +6,18 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Alpha Vault // Alpha-02",
+    template: "%s | Alpha-02",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "AI & Robotics Educator, Cybersecurity Specialist, and Automation Engineer.",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "Alpha Vault // Alpha-02",
+    description: "Verified Tactical Archive of Pragyan Karan",
+    url: "https://alpha-site-teal.vercel.app", // Update this if you change your domain later
+    siteName: "Alpha-02",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://alpha-site-teal.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,13 +37,14 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Alpha-02",
     card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.png",
   },
 };
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
